@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакты — Липецк Рент</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container inner">
+      <a href="index.html" class="brand">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+          <polyline points="9 22 9 12 15 12 15 22"></polyline>
+        </svg>
+        Липецк Рент
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Главная</a>
+        <a href="apartments.html">Каталог</a>
+        <a href="about.html">О нас</a>
+        <a href="contact.html" class="active">Контакты</a>
+      </div>
+      <a href="contact.html" class="btn btn-primary">Связаться</a>
+    </div>
+  </nav>
+
+  <main class="container section">
+    <div class="section-header">
+      <h1>Свяжитесь с нами</h1>
+      <p>Мы всегда рады помочь вам с поиском жилья или ответить на любые вопросы.</p>
+    </div>
+
+    <div class="detail-grid">
+      <div class="detail-content">
+        <div class="card" style="padding: 2rem; margin-bottom: 2rem;">
+          <h3 style="margin-bottom: 1.5rem;">Напишите нам</h3>
+          <form style="display: flex; flex-direction: column; gap: 1.5rem;">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+              <div>
+                <label style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Имя</label>
+                <input type="text" class="filter-input" placeholder="Иван Иванов">
+              </div>
+              <div>
+                <label style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Email</label>
+                <input type="email" class="filter-input" placeholder="ivan@example.com">
+              </div>
+            </div>
+            <div>
+              <label style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Тема</label>
+              <select class="filter-input">
+                <option>Аренда квартиры</option>
+                <option>Сдача квартиры</option>
+                <option>Сотрудничество</option>
+                <option>Другое</option>
+              </select>
+            </div>
+            <div>
+              <label style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Сообщение</label>
+              <textarea class="filter-input" rows="5" placeholder="Ваш вопрос..."></textarea>
+            </div>
+            <button class="btn btn-primary" style="align-self: flex-start;">Отправить сообщение</button>
+          </form>
+        </div>
+      </div>
+
+      <aside class="detail-sidebar" style="position: static;">
+        <h3 style="margin-bottom: 1.5rem;">Контактная информация</h3>
+        
+        <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+          <div>
+            <div style="font-weight: 600; margin-bottom: 0.25rem;">📍 Адрес</div>
+            <div style="color: #64748B;">г. Липецк, ул. Советская, д. 1, офис 305</div>
+          </div>
+          <div>
+            <div style="font-weight: 600; margin-bottom: 0.25rem;">📞 Телефон</div>
+            <a href="tel:+79991234567" style="color: #2563EB;">+7 (999) 123-45-67</a>
+          </div>
+          <div>
+            <div style="font-weight: 600; margin-bottom: 0.25rem;">✉️ Email</div>
+            <a href="mailto:hello@lipetsk-rent.ru" style="color: #2563EB;">hello@lipetsk-rent.ru</a>
+          </div>
+          <div>
+            <div style="font-weight: 600; margin-bottom: 0.25rem;">⏰ Режим работы</div>
+            <div style="color: #64748B;">Пн-Пт: 9:00 - 20:00<br>Сб-Вс: 10:00 - 18:00</div>
+          </div>
+        </div>
+
+        <div style="margin-top: 2rem; height: 200px; background: #F1F5F9; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: #64748B;">
+          Карта офиса
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Липецк Рент</h4>
+          <p style="color: #94A3B8;">Ваш надежный партнер в поиске идеального жилья в Липецке.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Навигация</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="apartments.html">Каталог</a></li>
+            <li><a href="about.html">О компании</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Контакты</h4>
+          <ul class="footer-links">
+            <li>+7 (999) 123-45-67</li>
+            <li>hello@lipetsk-rent.ru</li>
+            <li>г. Липецк, ул. Советская, 1</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2024 Липецк Рент. Все права защищены.
+      </div>
+    </div>
+  </footer>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Переключить тему">
+    <svg class="sun-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: none;">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+    <svg class="moon-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+    </svg>
+  </button>
+
+  <script>
+    const themeToggle = document.getElementById('theme-toggle');
+    const sunIcon = themeToggle.querySelector('.sun-icon');
+    const moonIcon = themeToggle.querySelector('.moon-icon');
+    
+    // Check local storage or system preference
+    const currentTheme = localStorage.getItem('theme');
+    if (currentTheme === 'dark') {
+      document.body.classList.add('dark-theme');
+      sunIcon.style.display = 'block';
+      moonIcon.style.display = 'none';
+    } else {
+      sunIcon.style.display = 'none';
+      moonIcon.style.display = 'block';
+    }
+
+    themeToggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark-theme');
+      
+      const isDark = document.body.classList.contains('dark-theme');
+      localStorage.setItem('theme', isDark ? 'dark' : 'light');
+      
+      if (isDark) {
+        sunIcon.style.display = 'block';
+        moonIcon.style.display = 'none';
+      } else {
+        sunIcon.style.display = 'none';
+        moonIcon.style.display = 'block';
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Студия в центре — Липецк Рент</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container inner">
+      <a href="index.html" class="brand">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+          <polyline points="9 22 9 12 15 12 15 22"></polyline>
+        </svg>
+        Липецк Рент
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Главная</a>
+        <a href="apartments.html">Каталог</a>
+        <a href="about.html">О нас</a>
+        <a href="contact.html">Контакты</a>
+      </div>
+      <a href="contact.html" class="btn btn-primary">Связаться</a>
+    </div>
+  </nav>
+
+  <main class="container section">
+    <div style="margin-bottom: 2rem;">
+      <a href="apartments.html" style="display: flex; align-items: center; gap: 0.5rem; color: #64748B; font-weight: 500;">
+        ← Назад к каталогу
+      </a>
+    </div>
+
+    <div class="detail-gallery">
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" alt="Main View">
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="View 2">
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="View 3">
+      </div>
+    </div>
+
+    <div class="detail-grid">
+      <div class="detail-content">
+        <h1 style="font-size: 2.5rem; margin-bottom: 0.5rem;">Стильная студия в центре города</h1>
+        <div style="color: #64748B; font-size: 1.1rem; margin-bottom: 2rem;">ул. Ленина, 15, Центральный район</div>
+        
+        <div style="display: flex; gap: 2rem; margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid #E2E8F0;">
+          <div>
+            <div style="font-size: 0.9rem; color: #64748B;">Площадь</div>
+            <div style="font-weight: 600; font-size: 1.2rem;">35 м²</div>
+          </div>
+          <div>
+            <div style="font-size: 0.9rem; color: #64748B;">Этаж</div>
+            <div style="font-weight: 600; font-size: 1.2rem;">4 из 9</div>
+          </div>
+          <div>
+            <div style="font-size: 0.9rem; color: #64748B;">Ремонт</div>
+            <div style="font-weight: 600; font-size: 1.2rem;">Евро</div>
+          </div>
+        </div>
+
+        <h3 style="margin-bottom: 1rem;">Описание</h3>
+        <p style="color: #475569; margin-bottom: 2rem; line-height: 1.7;">
+          Светлая и уютная квартира-студия с современным дизайнерским ремонтом. Идеально подходит для одного человека или молодой пары. В квартире есть всё необходимое для комфортного проживания: новая мебель, бытовая техника (холодильник, стиральная машина, кондиционер, ТВ), высокоскоростной интернет.
+          <br><br>
+          Расположение в самом центре города позволяет быстро добраться до любой точки. Рядом парки, кафе, магазины и остановки общественного транспорта.
+        </p>
+
+        <h3 style="margin-bottom: 1rem;">Удобства</h3>
+        <div class="features-list">
+          <div class="feature-item">📶 Wi-Fi</div>
+          <div class="feature-item">❄️ Кондиционер</div>
+          <div class="feature-item">🧺 Стиральная машина</div>
+          <div class="feature-item">📺 Телевизор</div>
+          <div class="feature-item">🍳 Кухня</div>
+          <div class="feature-item">🅿️ Парковка</div>
+        </div>
+
+        <h3 style="margin-bottom: 1rem; margin-top: 3rem;">Расположение</h3>
+        <div style="background: #F1F5F9; height: 300px; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: #64748B;">
+          Карта загружается...
+        </div>
+      </div>
+
+      <aside class="detail-sidebar">
+        <div style="font-size: 2rem; font-weight: 700; color: #2563EB; margin-bottom: 0.5rem;">2500 ₽</div>
+        <div style="color: #64748B; margin-bottom: 1.5rem;">в сутки</div>
+        
+        <form style="display: flex; flex-direction: column; gap: 1rem;">
+          <input type="text" placeholder="Ваше имя" class="filter-input">
+          <input type="tel" placeholder="Телефон" class="filter-input">
+          <textarea placeholder="Сообщение" class="filter-input" rows="3"></textarea>
+          <button class="btn btn-primary" style="width: 100%;">Забронировать просмотр</button>
+        </form>
+
+        <div style="margin-top: 1.5rem; text-align: center; font-size: 0.9rem; color: #64748B;">
+          Или позвоните нам:<br>
+          <a href="tel:+79990000000" style="color: #2563EB; font-weight: 600;">+7 (999) 000-00-00</a>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Липецк Рент</h4>
+          <p style="color: #94A3B8;">Ваш надежный партнер в поиске идеального жилья в Липецке.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Навигация</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="apartments.html">Каталог</a></li>
+            <li><a href="about.html">О компании</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Контакты</h4>
+          <ul class="footer-links">
+            <li>+7 (999) 123-45-67</li>
+            <li>hello@lipetsk-rent.ru</li>
+            <li>г. Липецк, ул. Советская, 1</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2024 Липецк Рент. Все права защищены.
+      </div>
+    </div>
+  </footer>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Переключить тему">
+    <svg class="sun-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: none;">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+    <svg class="moon-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+    </svg>
+  </button>
+
+  <script>
+    const themeToggle = document.getElementById('theme-toggle');
+    const sunIcon = themeToggle.querySelector('.sun-icon');
+    const moonIcon = themeToggle.querySelector('.moon-icon');
+    
+    // Check local storage or system preference
+    const currentTheme = localStorage.getItem('theme');
+    if (currentTheme === 'dark') {
+      document.body.classList.add('dark-theme');
+      sunIcon.style.display = 'block';
+      moonIcon.style.display = 'none';
+    } else {
+      sunIcon.style.display = 'none';
+      moonIcon.style.display = 'block';
+    }
+
+    themeToggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark-theme');
+      
+      const isDark = document.body.classList.contains('dark-theme');
+      localStorage.setItem('theme', isDark ? 'dark' : 'light');
+      
+      if (isDark) {
+        sunIcon.style.display = 'block';
+        moonIcon.style.display = 'none';
+      } else {
+        sunIcon.style.display = 'none';
+        moonIcon.style.display = 'block';
+      }
+    });
+  </script>
+</body>
+</html>
